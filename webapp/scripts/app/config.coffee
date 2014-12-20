@@ -5,5 +5,5 @@ webApp.run [
   '$state'
   ($rootScope, $state) ->
 
-    $rootScope.pageTitle = 'Country Coin'
+    $rootScope.pageTitle = 'Angular-Coffee'
 ]
