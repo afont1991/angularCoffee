@@ -1,0 +1,43 @@
+
+body {
+  padding-top: 0px;
+}
+
+.navbar-static-top:first-of-type{
+  margin-bottom: 0px;
+}
+
+.navbar {
+  text-transform: capitalize !important;
+}
+
+.navbar .status-updated-text {
+  text-transform: none;
+  width: 200px;
+}
+.page-header h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+.full-width{
+  width: 100%;
+}
+
+a{
+  cursor: pointer;
+}
+
+/*paddings*/
+
+.padding-top-50{
+  padding-top: 50px;
+}
+.padding-bottom-50{
+  padding-bottom: 50px;
+}
+.padding-top-20{
+  padding-top: 20px;
+}
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}

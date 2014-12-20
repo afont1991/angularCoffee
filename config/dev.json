@@ -1,0 +1,8 @@
+{
+  "port": 80,
+  "hostname": "http://codequality.herokuapp.com",
+  "logging": {
+    "file": false,
+    "console": true
+  }
+}

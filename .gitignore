@@ -1,0 +1,13 @@
+node_modules/
+bower_components/
+uploads/profiles/*
+.DS_Store
+dist/
+npm-debug.log
+.tmp/
+output*.log
+config/base.json
+apidoc/
+webapp/styles/app.css
+gitrepos
+.queues

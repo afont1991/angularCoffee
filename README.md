@@ -1,0 +1,1 @@
+A base Coffee angular setup
