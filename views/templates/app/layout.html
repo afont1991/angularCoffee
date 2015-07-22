@@ -17,8 +17,11 @@
 
 </head>
   <body>
-    <ng-include src="'/templates/app/navigation.html'"></ng-include>
-    <div ui-view="appView"></div>
+    <div class="container">
+      <ng-include src="'/templates/app/navigation.html'"></ng-include>
+      <div ui-view="appView"></div>
+      <ng-include src="'/templates/app/footer.html'"></ng-include>
+    </div>
 
     <!-- build:js /assets/js/vendorApp.js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>

@@ -1,12 +1,11 @@
 'use strict'
 
-webApp.controller 'MainController', [
+webApp.controller 'NavController', [
   '$scope'
   '$rootScope'
   '$state'
   ($scope, $rootScope, $state) ->
     $scope.init = ->
-      console.log '==========='
-
+      console.log 'init'
     $scope.init()
 ]
