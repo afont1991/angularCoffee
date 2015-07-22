@@ -8,9 +8,6 @@ app = express()
 # Configure express
 require('./config/express')(app)
 
-# Configure API Routing
-require('./api/routes')(app)
-
 # Configure application
 require('./config/angular')(app)
 

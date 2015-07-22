@@ -3,7 +3,6 @@
 bodyParser = require 'body-parser'
 compression = require 'compression'
 express = require 'express'
-logger = require './logger'
 
 module.exports = (app) ->
   app.use compression()
@@ -19,5 +18,5 @@ module.exports = (app) ->
   app.use bodyParser.json()
 
   app.use (req, res, next) ->
-    logger.info "HTTP #{res.statusCode} #{req.method} #{req.url}"
+    console.log "HTTP #{res.statusCode} #{req.method} #{req.url}"
     next()

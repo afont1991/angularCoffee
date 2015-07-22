@@ -13,7 +13,7 @@ webApp.config [
       url: '/'
       views:
         appView:
-          templateUrl: '/templates/app/login.html'
+          templateUrl: '/templates/app/main.html'
     })
 
     $locationProvider.html5Mode true
